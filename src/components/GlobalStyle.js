@@ -6,11 +6,8 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-	background: linear-gradient(to right, #ffd65a, #febf63, #fd9c5e);
-
-
-	background-repeat: no-repeat;
+    background: linear-gradient(to right, #ffd65a, #febf63, #fd9c5e);
+    background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	margin: 0;
