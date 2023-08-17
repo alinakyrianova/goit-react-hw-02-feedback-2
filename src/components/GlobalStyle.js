@@ -1,58 +1,37 @@
 import 'modern-normalize';
+
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-body {
+  body {
     margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(to right, #ffd65a, #febf63, #fd9c5e);
-    background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	margin: 0;
-	color: #000;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #f5f5f5;
+    color: #333;
   }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
-
-ul {
+  ul {
     list-style: none;
     padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
     margin: 0;
-}
+  }
 
-img {
-    display: block;
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+
+  img {
     max-width: 100%;
     height: auto;
-}
+  }
 
-#root {
-margin-top: 50px;
-background-color: rgba(170, 149, 255, 0.23);
-
-
-width: 500px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding: 20px;
-border-radius: 0px 50px 0px 50px;
-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.65);
-}
+  #root {
+    margin-top: 20px;
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
 `;
